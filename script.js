@@ -6,9 +6,15 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png");
-    img.setAttribute("alt", "Foto de Letícia com cabelo curto na altura do queixo, usando óculos escuros e sorrindo");
+    img.setAttribute(
+      "alt",
+      "Foto de Letícia com cabelo curto na altura do queixo, usando óculos escuros e sorrindo"
+    );
   } else {
     img.setAttribute("src", "./assets/avatar.png");
-    img.setAttribute("alt", "Foto de Letícia usando no rosto um efeito do Coringa e vestindo uma blusa azul da seleção brasileira");
+    img.setAttribute(
+      "alt",
+      "Foto de Letícia com cabelo curto na altura do queixo, usando no rosto um efeito do Coringa e vestindo uma blusa azul da seleção brasileira"
+    );
   }
 }
