@@ -14,7 +14,7 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar.png");
     img.setAttribute(
       "alt",
-      "Foto de Letícia com cabelo curto na altura do queixo, usando no rosto um efeito do Coringa e vestindo uma blusa azul da seleção brasileira"
+      "Foto de Letícia com cabelo curto na altura do queixo, usando no rosto um efeito da maquiagem do Coringa e vestindo uma blusa azul da seleção brasileira"
     );
   }
 }
