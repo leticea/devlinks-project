@@ -160,3 +160,13 @@ footer {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 50%;
+  }
+}
